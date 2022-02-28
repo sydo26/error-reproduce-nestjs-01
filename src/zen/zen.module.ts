@@ -18,6 +18,6 @@ import { ZenService } from './zen.service';
     GithubModule,
   ],
   controllers: [ZenController],
-  providers: [GithubService, ZenService],
+  providers: [ZenService],
 })
 export class ZenModule {}
